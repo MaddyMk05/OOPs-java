@@ -1,0 +1,18 @@
+ import java.util.Scanner;
+ class maddy{
+     int id;
+     String name;
+void data(int r,String n){
+    id=r;
+    name=n;
+}
+ void display(){
+     System.out.print(id+" "+name);
+ }}
+ public class Main{
+     public static void main(String arg[]){
+        maddy m =new maddy(); //object creation
+        m.data(12,"Maadhav");
+        m.display();
+     }
+ }
